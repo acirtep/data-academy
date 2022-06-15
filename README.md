@@ -1,6 +1,7 @@
 # data-academy
 Repository to learn stuff about data
-Shout out to https://github.com/tiangolo/full-stack-fastapi-postgresql 
+
+👏 **Shout out** to https://github.com/tiangolo/full-stack-fastapi-postgresql 
 
 # requirements
 1. Install docker
