@@ -41,13 +41,14 @@ Open another terminal:
 - `$JUPYTER`
 - open the Jupyter link and check the SQL_workbench notebook
 
-## how to plot data on the world map
+## how to plot data on the world map (Jupyter Notebook)
 - `cd data-academy-app`
 - `docker-compose exec backend bash`
 - `$JUPYTER`
 - open the Jupyter link and check the how_to_draw_world_map notebook
 - the html is available at /jupyter_notebooks
-OR
+
+## how to plot data on the world map (Python)
 - `cd data-academy-app`
 - `docker-compose exec backend bash`
 - `cd app`
