@@ -46,3 +46,10 @@ Open another terminal:
 - `docker-compose exec backend bash`
 - `$JUPYTER`
 - open the Jupyter link and check the how_to_draw_world_map notebook
+- the html is available at /jupyter_notebooks
+OR
+- `cd data-academy-app`
+- `docker-compose exec backend bash`
+- `cd app`
+- `python py_scripts/export_world_map.py `
+- the html is available at /app/exports
