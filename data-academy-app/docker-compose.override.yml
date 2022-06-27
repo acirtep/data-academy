@@ -42,6 +42,7 @@ services:
     volumes:
       - ./backend/app:/app
       - ./backend/jupyter_notebooks:/jupyter_notebooks
+      - ./backend/data:/data
     environment:
       - JUPYTER=jupyter lab --ip=0.0.0.0 --allow-root --NotebookApp.custom_display_url=http://127.0.0.1:8888 --notebook-dir=../jupyter_notebooks
       - SERVER_HOST=http://${DOMAIN?Variable not set}
