@@ -154,3 +154,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+/data-academy-app/backend/data
+/data-academy-app/backend/app/app/exports/*.html
+/data-academy-app/backend/jupyter_notebooks/urban_population_2018.html
